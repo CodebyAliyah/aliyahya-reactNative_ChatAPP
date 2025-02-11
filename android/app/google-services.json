@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "280001049249",
+    "project_id": "techat-bb26f",
+    "storage_bucket": "techat-bb26f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280001049249:android:e8ba8f106c723de693f6e0",
+        "android_client_info": {
+          "package_name": "com.techat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280001049249-j71j3m485ei19ushfvjsvjmu5suel6ht.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techat",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "280001049249-37ps1jrvt4v5p07vsc1m3djhai6fopcd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDm5PnRxVZjif1tvmoGCE2ouIfjK59WXz8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "280001049249-37ps1jrvt4v5p07vsc1m3djhai6fopcd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
