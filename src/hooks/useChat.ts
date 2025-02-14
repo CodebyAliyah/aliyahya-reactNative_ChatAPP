@@ -172,7 +172,7 @@ export const deleteChat = async (chatId: string, participants: string[]) => {
         chats: firestore.FieldValue.arrayRemove(chatId),
       }),
     ));
-    console.log(`Chat ${chatId} deleted successfully`);
+    (`Chat ${chatId} deleted successfully`);
   } catch (error) {
     console.error('Error deleting chat:', error);
     throw error;

@@ -1,6 +1,7 @@
 import React from 'react';
 import { TouchableOpacity, Text, StyleSheet, Image } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
+import {styles} from "./BackButton"
 
 const GoBackButton: React.FC = () => {
   const navigation = useNavigation();
@@ -15,24 +16,5 @@ const GoBackButton: React.FC = () => {
     </TouchableOpacity>
   );
 };
-
-const styles = StyleSheet.create({
-  button: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    borderRadius: 8,
-    width: 100,
-  },
-  image: {
-    width: 24,
-    height: 24,
-    resizeMode: 'contain',
-  },
-  text: {
-    color: 'white',
-    fontSize: 16,
-    marginLeft: 8,
-  },
-});
 
 export default GoBackButton;

@@ -94,7 +94,6 @@ export const getCurrentUserProfile = async () => {
         const userDoc = await fetchUser(user.uid);
         resolve(userDoc as User | null);
       } else {
-        console.log('No user is currently signed in.');
         resolve(null);
       }
     });

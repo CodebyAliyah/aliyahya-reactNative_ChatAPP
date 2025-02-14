@@ -18,16 +18,9 @@ export const fetchUsersThunk = createAsyncThunk<User[], string | undefined>(
   'users/fetchAll',
   async (userId, {rejectWithValue}) => {
     try {
-      console.log(
-        '%c Inside thunk... (Users.ts) =>',
-        'font-size:20px;color:orange;text-align:center',
-      );
+  
       const users = await fetchUsers(userId);
-      console.log(
-        '%c Just fetched users... (Users.ts) =>',
-        'font-size:20px;color:red;',
-        users,
-      );
+      
       return users;
     } catch (error) {
       if (error instanceof Error) {

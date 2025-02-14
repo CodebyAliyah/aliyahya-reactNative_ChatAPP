@@ -78,7 +78,6 @@ const contactsSlice = createSlice({
         
         if (!isAlreadyContact) {
           state.contacts = [...state.contacts, action.payload];
-          console.log('Contacts =+> (contact.slice.ts)', state.contacts.map(c => c.displayName));
         } else {
           console.warn('User is already in contacts:', action.payload);
         }

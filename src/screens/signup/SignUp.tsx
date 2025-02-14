@@ -30,7 +30,7 @@ const SignIn: React.FC = () => {
         <View style={styles.formContainer}>
           <IconButton
             src={Images.GoogleIcon}
-            onPress={() => console.log("Google Icon clicked")}
+            onPress={() => c("Google Icon clicked")}
           />
           <View style={styles.gapVertical}>
             <RulerText lineColor={COLOR.dark_gray} />

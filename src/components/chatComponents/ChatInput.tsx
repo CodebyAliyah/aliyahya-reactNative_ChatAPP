@@ -31,7 +31,7 @@ const ChatInput: React.FC<{
           placeholderTextColor="#888"
           numberOfLines={2}
           placeholder="Write your message"
-          onKeyPress={() => console.log('Typed...')}
+          onKeyPress={() => console.lo('Typed...')}
         />
         <TouchableOpacity
           onPress={onSend}

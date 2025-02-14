@@ -32,12 +32,9 @@ const useSearch = () => {
       dispatch(addContactToStore(contactId));
       dispatch(addUserToContact(contactId));
       await addContact(user?.uid || '', contactId);
-      console.log('%c Contact added successfully...', 'font-size:16px;color:green;');
     } catch (error) {
       console.error('Error adding contact:', error);
-    } finally {
-      console.log('Added via Store...', contacts.map(c => c?.displayName));
-    }
+    } 
   };
 
   return {
